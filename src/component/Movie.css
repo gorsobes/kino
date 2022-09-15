@@ -1,0 +1,222 @@
+.posterImg{
+    width: 380px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-height: 635px;
+    animation-name: Appearance;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}
+@-webkit-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-o-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-moz-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+.description{
+    font-size: 18px;
+    position: relative;
+    left: 32%;
+    top: 40px;
+    width: 60%;
+}
+.description span{
+    font-weight: bold;
+}
+.container{
+    background: antiquewhite;
+}
+.buttonRandom{
+    width: 250px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #ffc600;
+    text-align: center;
+}
+.badge{
+    margin-bottom: 5px;
+    white-space: break-spaces !important;
+    width: 250px;
+    height: auto;
+    padding: 10px !important;
+}
+.row {
+    min-height: 100%;
+    padding: 10px 0 10px 0;
+}
+.accordion-body {
+    display: grid;  
+  /*  grid-template-rows:  200px 200px 200px; /* 3 строки */
+    grid-template-columns: 30% 30% 30%; /* 3 столбца */
+    margin-left: 6%;
+  }
+  .alert-secondary {
+   
+    margin-left: 20px;
+}
+button.buttonRandom.menu {
+    margin: 0px 0px 5px 75px;
+    background: cadetblue;
+    border: 2px solid #0d6efd;
+   
+   
+}
+button.accordion-button.collapsed {
+    background: darkgrey;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+button.accordion-button {
+    font-size: 24px;
+    font-weight: bold;
+}
+.name{
+    position: relative;
+    top: 42px;
+    left: 32%;
+    width: 65%;
+}
+span.badge {
+    left: 32%;
+    position: relative;
+    top: 40px;
+}
+.block{
+display: block;
+position: relative;
+height: 680px;
+}
+.buttonRandom.menu.ok {
+    background: #f0f8ff91;
+    color: #0000001f;
+    border: 2px solid #0d6efd00;
+    cursor: context-menu;
+}
+.visit {
+    margin-top: 50px !important;
+}
+.hr{ 
+    display: block;
+    margin: 20px 0 0;
+}
+ul.pagination {
+    margin: 25px 0 25px 0;
+}
+.randoms {
+    left: 3%;
+    top: 0%;
+}
+button.accordion-button.collapsed {
+    margin: 50px 0 10px 0;
+}
+.brands {
+    top: 40px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.desrandoms {
+    left: 0% !important;
+}
+.select{
+    position: relative;
+    left: 8%;
+    font-weight: 700;
+    color: cornflowerblue;
+    border-color: cadetblue;
+    z-index: 999;
+    width: 128px;
+}
+.select:focus-visible{
+    border-color: rgb(90, 107, 107);
+    border: 2px solid rgba(184, 202, 184, 0.6)
+}
+.pselect{
+    position: relative;
+    top: -34px;
+    font-weight: 700;
+    color: cadetblue;
+    font-size: 22px;
+}
+.kp {
+    left: 33%;
+    top: -80px;
+}
+.kpp{
+    
+        left: 20%;
+        top: -112px;
+    
+}
+.spiner{
+    left: 45%;
+    top: 300px;
+    position: relative;
+  
+        width: 60px !important;
+        height: 60px !important;
+    
+   
+   
+}
+.rowfoo {
+    height: 160px;
+}
+.button15 {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: 0.2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    top: 42px;
+    position: relative;
+    width: 250px;
+    padding: 7px;
+  }
+  .button15:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  }
+  .button15:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+  }
+  .hovactiv:hover{
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  }
+  .hovactiv:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+  }
