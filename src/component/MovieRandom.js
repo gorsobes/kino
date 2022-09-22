@@ -35,6 +35,7 @@ function MovieRandom() {
             setIsLoaded(true);
             setItems(result);
            
+           
           },
           
           (error) => {
@@ -43,6 +44,7 @@ function MovieRandom() {
           }
         )
     }, [counter])
+    console.log(items);
     if(items.message === "id not found"){
       return (<>
       <div>
@@ -97,7 +99,8 @@ function MovieRandom() {
         items.poster = img
       }
 
-
+      const imbd = items.rating.imdb === null || items.rating.imdb === undefined ? 0 : items.rating.imdb.toFixed(1)
+      const kp = items.rating.kp === null || items.rating.kp === undefined ? 0 : items.rating.kp.toFixed(1)
 
       return (
         
@@ -124,8 +127,8 @@ function MovieRandom() {
          </Badge><br/> 
          <Badge className='desrandoms' bg="secondary">{items.slogan || '-нет данных'}</Badge><br/>
       <Badge bg="info" className='desrandoms'> 
-          IMDB: {items.rating.imdb}<br/>
-         КИНОПОИСК: {items.rating.kp}
+          IMDB: {imbd }<br/>
+         КИНОПОИСК: {kp}
          </Badge><br/>
          <Badge className='desrandoms' bg="success">Год выпуска: {items.year}</Badge><br/>
          <button onClick={handleClick} className='button15'>СЛУЧАЙНО</button>

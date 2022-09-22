@@ -217,10 +217,10 @@ switch (y) {
           {item.type === 'tv-series' ? 'СЕРИАЛ' : 'ФИЛЬМ'|| '-нет данных'}<br/>
          </Badge><br/> 
            <Badge bg="info"> 
-          IMDB: {item.rating.imdb || 0}<br/>
+          IMDB: {item.rating.imdb === null || item.rating.imdb === undefined ? 0 : item.rating.imdb.toFixed(1)}<br/>
          </Badge><br/> 
          <Badge bg="info"> 
-         КИНОПОИСК: {item.rating.kp || 0 }
+         КИНОПОИСК: {item.rating.kp === null || item.rating.kp === undefined ? 0 : item.rating.kp.toFixed(1) }
          </Badge><br/> 
          <Badge bg="success" >Год выпуска: {item.year || '-нет данных-:('}</Badge><br/>
        
