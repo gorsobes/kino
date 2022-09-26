@@ -15,9 +15,9 @@ function MovieGrade() {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
-    const [counter, setCounter] = useState(1990);
+    const [counter, setCounter] = useState(2022);
     const [pagecount, setPageCount] = useState(1);
-    const [value, setValue] = useState(1980);
+    const [value, setValue] = useState(2020);
     const [valuekp, setValuekp] = useState(10);
 
     function chengeSelectkp(e) {
@@ -36,7 +36,7 @@ function MovieGrade() {
     setPageCount(1);
     break;
       default:
-        setValue(1980);
+        setValue(2020);
       }
     }
 
@@ -92,7 +92,7 @@ switch (y) {
         setPageCount(1);
         break;
   default:
-    setValue(1980);
+    setValue(2020);
 }
     }
 
@@ -177,15 +177,15 @@ switch (y) {
       <Pagination.Last onClick={(e) => pageClick(items.pages - pagecount)}/>
     </Pagination>
     <select onChange={chengeSelect} className='select'>
-         <option>1980-90</option>
-         <option>1990-2000</option>
-         <option>2000-2010</option>
-         <option>2010-2012</option>
-         <option>2012-2014</option>
-         <option>2014-2016</option>
-         <option>2016-2018</option>
-         <option>2018-2020</option>
          <option>2020-2022</option>
+         <option>2018-2020</option>
+         <option>2016-2018</option>
+         <option>2014-2016</option>
+         <option>2012-2014</option>
+         <option>2010-2012</option>
+         <option>2000-2010</option>
+         <option>1990-2000</option>
+         <option>1980-90</option>
         
       </select>
       <p className='pselect'>

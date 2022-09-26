@@ -18,23 +18,26 @@ function MovieYear() {
     const [items, setItems] = useState([]);
     const [counter, setCounter] = useState(2022);
     const [pagecount, setPageCount] = useState(1);
-   
-   
+    const [flag, setFlag] = useState('clear');
+    
+  
+    let div = <p className={flag}>ВВЕДИТЕ ЧИСЛА c 1950 по 2025</p>
     const handleChange = (e) => {
       e.preventDefault(); 
       let n = inputRef.current.value;
       if(isNaN(parseFloat(n)) && !isFinite(n)){
-        alert('ВВЕДИТЕ ЧИСЛА || c 1950 по 2025')
+        setFlag('errdel')
         
       }
      if(n < 1949 || n > 2026){
-      alert('ВВЕДИТЕ ЧИСЛА || c 1950 по 2025')
+      setFlag('errdel')
      }
 
       
       if(!isNaN(parseFloat(n)) && isFinite(n) && n >= 1950 && n <= 2025){
         setCounter(n); 
         setPageCount(1);
+        setFlag('clear')
       }
      
     };
@@ -126,7 +129,7 @@ function MovieYear() {
            
            <Col md={{ span:3, offset: 0 }}>
            <Form className="search-form" >
-           <input type="text" ref={inputRef} placeholder="2022" />  
+           <input type="text" ref={inputRef} placeholder={counter} />
         <button variant="outline-secondary" onClick={handleChange} id="button-addon2">  
           ГОД 
         </button>  
@@ -209,8 +212,9 @@ function MovieYear() {
            <Row>
            
            <Col md={{ span:3, offset: 0 }}>
+           {div}
            <Form className="search-form" >
-           <input type="text" ref={inputRef} placeholder="2022"/>  
+           <input type="text" ref={inputRef} placeholder={counter}/>
         <button variant="outline-secondary" onClick={handleChange} id="button-addon2">  
           ГОД 
         </button>  

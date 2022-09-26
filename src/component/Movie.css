@@ -220,3 +220,11 @@ button.accordion-button.collapsed {
     background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
     box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
   }
+  p.errdel {
+    color: crimson;
+    font-size: 16px;
+    font-weight: 800;
+}
+p.clear {
+    display: none;
+}
