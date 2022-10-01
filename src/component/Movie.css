@@ -187,7 +187,7 @@ button.accordion-button.collapsed {
     user-select: none;
     padding: 0.2em 1.2em;
     outline: none;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 3px solid rgba(0,0,0,.1);
     border-radius: 5px;
     background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
     transition: all .218s ease 0s;

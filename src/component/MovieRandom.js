@@ -44,7 +44,7 @@ function MovieRandom() {
           }
         )
     }, [counter])
-    console.log(items);
+    
     if(items.message === "id not found"){
       return (<>
       <div>
@@ -71,7 +71,7 @@ function MovieRandom() {
        КИНОПОИСК: 0
        </Badge><br/>
        <Badge className='desrandoms' bg="success">Год выпуска: -нет данных</Badge><br/>
-       <button onClick={handleClick} className='button15'>СЛУЧАЙНО</button>
+       <button onClick={handleClick} className='button15'>НАЖМИ ДЛЯ СЛУЧАЙНОГО ПОИСКА</button>
       </Col>
     </Row>
     <Row className='visit'>
@@ -131,7 +131,7 @@ function MovieRandom() {
          КИНОПОИСК: {kp}
          </Badge><br/>
          <Badge className='desrandoms' bg="success">Год выпуска: {items.year}</Badge><br/>
-         <button onClick={handleClick} className='button15'>СЛУЧАЙНО</button>
+         <button onClick={handleClick} className='button15'>НАЖМИ ДЛЯ СЛУЧАЙНОГО ПОИСКА</button>
         </Col>
       </Row>
       <Row>
