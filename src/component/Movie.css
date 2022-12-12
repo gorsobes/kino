@@ -179,7 +179,7 @@ button.accordion-button.collapsed {
 }
 .button15 {
     background: #ffffff linear-gradient(#7bc3bd,#cae9d2);
-    border: 3px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
     border-radius: 5px;
     color: #690ccf;
     display: inline-block;
@@ -197,10 +197,9 @@ button.accordion-button.collapsed {
     width: 250px;
   }
   .button15:hover {
-    color: #690ccf;
-    border: 1px solid rgb(198,198,198);
-    /*background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);*/
-    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    border: 1px solid #c6c6c6;
+    color: #ffffff;
+    background: #ffffff linear-gradient(#145e58,#73ad81);
   }
   .button15:active {
     color: #690ccf;
