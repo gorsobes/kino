@@ -131,7 +131,7 @@ function MovieRandom() {
          КИНОПОИСК: {kp}
          </Badge><br/>
          <Badge className='desrandoms' bg="success">Год выпуска: {items.year}</Badge><br/>
-         <button onClick={handleClick} className='button15'>НАЖМИ ДЛЯ СЛУЧАЙНОГО ПОИСКА</button>
+         <button onClick={handleClick} className='button15'>СЛУЧАЙНЫЙ ПОИСК</button>
         </Col>
       </Row>
       <Row>
