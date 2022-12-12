@@ -178,10 +178,10 @@ button.accordion-button.collapsed {
     height: 160px;
 }
 .button15 {
-    background: #ffffff linear-gradient(#7bc3bd,#cae9d2);
+    background: #fff linear-gradient(#7bc3bd,#cae9d2);
     border: 1px solid rgba(0,0,0,.1);
     border-radius: 5px;
-    color: #690ccf;
+    color: #6c757d;
     display: inline-block;
     font-family: arial,sans-serif;
     font-size: 16px;
@@ -197,12 +197,12 @@ button.accordion-button.collapsed {
     width: 250px;
   }
   .button15:hover {
+    background: #000 linear-gradient(#7bc2bccf,#c9e8d1b5);
     border: 1px solid #c6c6c6;
-    color: #ffffff;
-    background: #ffffff linear-gradient(#145e58,#73ad81);
+    color: #fff;
   }
   .button15:active {
-    color: #690ccf;
+    color: #6c757d;
     border: 1px solid rgb(204,204,204);
     /*background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));*/
     box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
