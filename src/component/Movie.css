@@ -91,6 +91,9 @@ button.accordion-button {
     left: 32%;
     width: 65%;
 }
+h2.name.rdms {
+    left: 0;
+}
 span.badge {
     left: 32%;
     position: relative;
