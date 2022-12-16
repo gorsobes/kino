@@ -144,7 +144,7 @@ function MovieYear() {
          
             <div  className='block'>
             <div><hr /></div>
-            <h2> -нет данных</h2> 
+            <h2 className='name'> -нет данных</h2> 
             <p className='description'><span>Обзор: </span> -нет данных</p>
              <img key={items.id} src={img} className='posterImg' alt=''/>
               

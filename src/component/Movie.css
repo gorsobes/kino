@@ -131,7 +131,10 @@ button.accordion-button.collapsed {
     margin-bottom: 40px;
 }
 .desrandoms {
-    left: 0% !important;
+    left: 0%;
+}
+span.desrandoms.badge {
+    left: 0%;
 }
 .select{
     position: relative;
@@ -227,3 +230,146 @@ button.accordion-button.collapsed {
 p.clear {
     display: none;
 }
+
+@media (max-width: 600px) {
+    
+  
+  }
+  @media (min-width: 601px) and (max-width: 991px) {
+   
+    a.nav-link {
+        width: 160px;
+    }
+    h2.name {
+        left: 49.5%;
+        font-size: 25px;
+    }
+    h2.name.rdms {
+        left: 24%;
+    }
+    
+    .description {
+        left: 344px !important;
+        width: 50%;
+    }
+    p.description.desrandoms {
+        left: 24% !important;
+    }
+    span.badge {
+        left: 50%;
+    }
+     button.button15 {
+        right: -110px;
+    }
+    span.desrandoms.badge {
+        left: 24%;
+    }
+    .select { 
+        left: 14%;
+    }
+
+.kpp {
+    left: 34%;
+   
+}
+select.select.kp {
+    left: 58%;
+}
+button#button-addon2 {
+    left: 139%;
+    position: relative;
+    bottom: 33px;
+}
+img.posterImg {
+    width: 300px;
+}
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    h2.name {
+        left: 49.5%;
+        font-size: 25px;
+    }
+    h2.name.rdms {
+        left: 24%;
+    }
+    
+    .description {
+        left: 463px !important;
+        width: 50%;
+    }
+    p.description.desrandoms {
+        left: 24% !important;
+    }
+    span.badge {
+        left: 50%;
+    }
+     button.button15 {
+        right: -147px;
+    }
+    span.desrandoms.badge {
+        left: 24%;
+    }
+    .select { 
+        left: 11%;
+    }
+
+.kpp {
+    left: 27%;
+   
+}
+select.select.kp {
+    left: 45%;
+}
+button#button-addon2 {
+    left: 100%;
+    position: relative;
+    bottom: 33px;
+}
+
+
+  }
+
+
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    h2.name {
+        left: 49.5%;
+        font-size: 25px;
+    }
+    h2.name.rdms {
+        left: 24%;
+    }
+    
+    .description {
+        left: 463px !important;
+        width: 50%;
+    }
+    p.description.desrandoms {
+        left: 24% !important;
+    }
+    span.badge {
+        left: 50%;
+    }
+     button.button15 {
+        right: -176px;
+    }
+    span.desrandoms.badge {
+        left: 24%;
+    }
+    .select { 
+        left: 11%;
+    }
+
+.kpp {
+    left: 27%;
+   
+}
+select.select.kp {
+    left: 45%;
+}
+button#button-addon2 {
+    left: 100%;
+    position: relative;
+    bottom: 33px;
+}
+  
+  }

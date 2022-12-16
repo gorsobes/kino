@@ -63,7 +63,7 @@ function MovieRandom() {
       <img key={counter} src={img} className='posterImg randoms' alt='poster'/>
       </Col>
       <Col sm={8}>
-      <h2>-нет данных</h2> 
+      <h2 className='name rdms'>-нет данных</h2> 
       <p className='description desrandoms'><span>Обзор: </span>-нет данных</p>
        <Badge className='desrandoms' bg="warning">Слоган: -нет данных</Badge><br/>
     <Badge bg="info" className='desrandoms'> 
@@ -120,7 +120,7 @@ function MovieRandom() {
         <img key={items.id} src={items.poster.url || items.poster} className='posterImg randoms' alt='poster'/>
         </Col>
         <Col sm={8}>
-        <h2>{items.name}</h2> 
+        <h2 className='name rdms'>{items.name}</h2> 
         <p className='description desrandoms'><span>Обзор: </span>{items.description || '-нет данных'}</p>
         <Badge bg="warning" className='desrandoms'> 
           {items.type === 'tv-series' ? 'СЕРИАЛ' : 'ФИЛЬМ'|| '-нет данных'}<br/>
