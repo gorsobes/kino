@@ -234,11 +234,68 @@ p.clear {
     display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
+    a.nav-link {
+        width: 94px;
+    font-size: 10px;
+    }
+    h2.name {
+        left: 49.5%;
+        font-size: 25px;
+        width: 53%;
+    }
+    h2.name.rdms {
+        left: 24%;
+    }
     
+    .description {
+        left: 255px !important;
+        width: 50%;
+        font-size: 12px;
+    }
+    p.description.desrandoms {
+        left: 24% !important;
+    }
+    span.badge {
+        left: 50%;
+        width: 170px;
+    }
+     button.button15 {
+        right: -81px;
+    width: 170px;
+    }
+    span.desrandoms.badge {
+        left: 24%;
+    }
+    .select { 
+        left: 14%;
+    }
+
+.kpp {
+    left: 34%;
+   
+}
+select.select.kp {
+    left: 20%;
+    top: 0px;
+}
+button#button-addon2 {
+    left: 139%;
+    position: relative;
+    bottom: 33px;
+}
+img.posterImg {
+    width: 200px;
+}
+p.pselect {
+    display: none;
+}
+.accordion.accordion-flush {
+    display: none;
+}
   
   }
-  @media (min-width: 601px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991px) {
    
     a.nav-link {
         width: 160px;
@@ -246,6 +303,7 @@ p.clear {
     h2.name {
         left: 49.5%;
         font-size: 25px;
+        width: 53%;
     }
     h2.name.rdms {
         left: 24%;
@@ -254,6 +312,7 @@ p.clear {
     .description {
         left: 344px !important;
         width: 50%;
+        font-size: 15px;
     }
     p.description.desrandoms {
         left: 24% !important;
